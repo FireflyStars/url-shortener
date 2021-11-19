@@ -22,9 +22,9 @@ login and registration.
 
 ## How to run this application successfully
 
-1. copy .env.example and change it into .env
-2. create database(MYSQL) for this app. when you create database, please set charset as utf8 and collation as utf8_unicode_ci
-3. set database credentials in .env file
+1. Copy .env.example and change it into .env
+2. Create database(MYSQL) for this app. when you create database, please set charset as utf8 and collation as utf8_unicode_ci
+3. Set database credentials in .env file
 4. Add below code to the .env file. 
 - SHORTEN_URL = http://url-shortener.test
 3. Excute this command. 
@@ -39,10 +39,10 @@ login and registration.
 ## Expected json response on success:
 
 {\
-"destination": "https://google.com",<br>
-"slug": "k9GZw",\
-"updated_at": "2021-09-10T23:52:11.000000Z",\
-"created_at": "2021-09-10T23:52:11.000000Z",\
-"id": 18,\
-"shortened_url": "http://url-shortener.test/k9GZw" <br>
+    "destination": "https://google.com",<br>
+    "slug": "k9GZw",\
+    "updated_at": "2021-09-10T23:52:11.000000Z",\
+    "created_at": "2021-09-10T23:52:11.000000Z",\
+    "id": 18,\
+    "shortened_url": "http://url-shortener.test/k9GZw" <br>
 }
