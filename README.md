@@ -39,10 +39,10 @@ login and registration.
 ## Expected json response on success:
 
 {\
-"destination": "https://google.com",\
+"destination": "https://google.com",<br>
 "slug": "k9GZw",\
 "updated_at": "2021-09-10T23:52:11.000000Z",\
 "created_at": "2021-09-10T23:52:11.000000Z",\
 "id": 18,\
-"shortened_url": "http://url-shortener.test/k9GZw"\
+"shortened_url": "http://url-shortener.test/k9GZw" <br>
 }
