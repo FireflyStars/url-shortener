@@ -34,8 +34,8 @@ login and registration.
 
 ## POST REST API endpoint
 - api/shortened-url
-- it must take "destination" field as required property of request body.
-- if the "destination" field is not set or value is not invalid, it will show error response with reason
+- It must take "destination" field as required property of request body.
+- If the "destination" field is not set or value is invalid, it will show error response with reason
 ## Expected json response on success:
 
 {\
