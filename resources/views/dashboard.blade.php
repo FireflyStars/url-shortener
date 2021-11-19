@@ -7,7 +7,7 @@
 
     <div class="py-12">
         {{-- This is the part to check POST API --}}
-        {{-- <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+        {{-- <div class="max-w-7xl mx-auto mb-12 sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="mt-10 sm:mt-0">
                     <div class="md:grid md:grid-cols-3 md:gap-6">

@@ -10,19 +10,16 @@ use Illuminate\Support\Facades\Validator;
 class ApiUrlController extends Controller
 {
     public function getUrlResource(Request $request){
+        // making validator manually
         $validator = Validator::make($request->all(), [
-            'destination' => 'required|exists:urls|url',
-        ], [
-            'required' => 'The destination is required',
-            'url' => 'The destination is invalid',
-            'exist' => 'The destination does not have shortened url',
+            'destination' => 'required|url|exists:urls'
         ]);
 
         if ($validator->fails()) {
             return response()->json($validator->errors());
         }
-        // check if request is valid or not.
-        $validated = $request->validated();
+        // get validated values
+        $validated = $validator->validated();
         return new UrlResource(Url::where('destination', $validated['destination'])->first());
     }
 }

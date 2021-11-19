@@ -36,6 +36,7 @@ login and registration.
 - api/shortened-url
 - It must take "destination" field as required property of request body.
 - If the "destination" field is not set or value is invalid, it will show error response with reason
+- You can test the endpoint using PostMan. Otherwise , please uncomment the api checking part in dashboard.blade.php. then, rebuild the assets (npm run prod). then you will see the new part to check api endpoint.
 ## Expected json response on success:
 
 {\
