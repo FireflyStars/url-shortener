@@ -17,8 +17,8 @@ login and registration.
 
 ## How to excute this application
 
-- 1. Add this code to your .env file. SHORTEN_URL = http://url-shortener.test
-- 2. Excute this command. 
+1. Add this code to your .env file. SHORTEN_URL = http://url-shortener.test
+2. Excute this command. 
 - composer install
 - php artisan migrate
 - php artisan serve
